@@ -5,3 +5,4 @@ let User = require('../models/user.model');
 router.get('/register', (req, res) => {
     res.render('register');
 });
+module.exports = router;
