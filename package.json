@@ -7,5 +7,12 @@
     "npm start": "node app.js"
   },
   "author": "KOK",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.4"
+  }
 }
