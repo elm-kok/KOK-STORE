@@ -1,0 +1,11 @@
+{
+  "name": "kok_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "npm start": "node app.js"
+  },
+  "author": "KOK",
+  "license": "ISC"
+}
