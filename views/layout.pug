@@ -22,12 +22,12 @@ html
                         a(href='/products/add') Add Product
                 ul.nav.navbar-nav.navbar-right
                     li
-                        a(href='/users/logout') Logout
-                    li
                         a(href='/users/register') Register
                     li
                         a(href='/users/login') Login
-
+                    li
+                        a.navbar-brand(href='/products/basket')
+                            img(src='/assets/shop.png', width='45', height='45', alt='',id='logo-shop')
     .container
         block content
         block foot

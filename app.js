@@ -22,7 +22,9 @@ app.get('/', (req, res) => {
 });
 
 let users = require('./routes/user.route');
+let products = require('./routes/product.route');
 app.use('/users', users);
+app.use('/products', products);
 
 app.listen(3000, () => {
     console.log('port 3000');
